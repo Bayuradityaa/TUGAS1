@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0px;
+  background-color: #eee; /* Latar belakang abu-abu seperti contoh */
+}
+
+header {
+  background-color: #234; /* Header gelap */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #234; /* Navigasi gelap menyatu dengan header */
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #f63; /* Warna oranye saat hover */
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #fff; /* Konten berlatar putih */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+/* === FORM STYLES === */
+form#form-user {
+  background: #fff;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+form#form-user label {
+  display: inline-block;
+  width: 120px;
+}
+
+/* Input text, password, number, dan select disamakan lebarnya */
+#form-user input[type="text"],
+#form-user input[type="password"],
+#form-user input[type="number"],
+#form-user select,
+#form-user input[type="file"] {
+  width: 475px; /* Lebar input spesifik sesuai contoh */
+  padding: 8px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 15px;
+  background-color: #4b5; /* Tombol Hijau */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+form button:hover {
+  background-color: #3a4; /* Hijau lebih gelap saat hover */
+}
+
+#form-user button {
+  margin-left: 125px; /* Indentasi tombol */
+}
+
+/* === TABLE STYLES === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #ddd; /* Header tabel abu-abu */
+}
+
+tr:hover {
+  background-color: #eee;
+}
+
+/* === TAMBAHAN KHUSUS INVENTORY (Agar tampilan tetap rapi) === */
+
+/* Ukuran gambar kecil di dalam tabel */
+.thumb {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+}
+
+/* Tombol Aksi (Edit/Hapus) agar senada */
+.action-btn {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+/* Tombol Edit (Biru) */
+.action-btn {
+    background-color: #234; 
+}
+
+/* Tombol Hapus (Merah) */
+.action-btn.del {
+    background-color: #d9534f;
+}
+
+.action-btn:hover {
+    opacity: 0.8;
+}
+
+/* Pesan Flash/Error */
+.flash-message {
+  color: red;
+  margin-bottom: 15px;
+}
