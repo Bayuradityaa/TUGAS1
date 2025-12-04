@@ -12,11 +12,11 @@ spl_autoload_register(function ($class_name) {
 // data config
 const DB_HOST = 'localhost';
 const DB_USER = 'root';       
-const DB_PASS = 'bayu555';           
+const DB_PASS = '';           
 const DB_NAME = 'nadimart';   
 
 // Define base URL
-const BASE_URL = 'https://localhost:8000/'; 
+const BASE_URL = 'http://localhost:8000/'; 
 
 // Konfigurasi NAVBARnya
 const NAV_PAGES = [
