@@ -2,7 +2,7 @@
 
 **Sistem Inventaris Nadimart** adalah sebuah  inovasi berbasis web yang dirancang untuk mengefisiensikan pengelolaan stok barang pada toko alat tulis. Proyek ini dikembangkan menggunakan **PHP Native** dengan pendekatan arsitektur **Object-Oriented Programming (OOP)** serta didukung oleh basis data **MySQL**.
 
-## Keunggulan Fitur
+# Keunggulan Fitur
 
 Aplikasi ini memfasilitasi operasi data secara menyeluruh (CRUD - *Create, Read, Update, Delete*) dengan fitur-fitur berikut:
 
@@ -15,14 +15,14 @@ Aplikasi ini memfasilitasi operasi data secara menyeluruh (CRUD - *Create, Read,
 * **Manajemen Status**: Fitur untuk menandai ketersediaan produk (*Active/Inactive*).
 * **Keamanan Upload Gambar**: Mekanisme unggah foto dengan fitur *auto-rename* (penamaan unik otomatis) untuk mencegah konflik pada direktori penyimpanan.
 
-## Spesifikasi Teknis
+# Spesifikasi Teknis
 
 * **Backend**: PHP.
 * **Database**: MySQL.
 * **Konektivitas**: Menggunakan driver PDO untuk keamanan dan stabilitas transaksi data.
 * **Frontend**: HTML5 & CSS.
 
-## Struktur Codingan
+# Struktur Codingan
 
 Struktur file dalam proyek ini:
 
