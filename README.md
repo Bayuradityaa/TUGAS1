@@ -45,3 +45,30 @@ Struktur file dalam proyek ini:
 ├── save.php            # Controller untuk menyimpan data baru
 ├── update.php          # Controller untuk memperbarui data
 └── delete.php          # Controller untuk menghapus data
+
+```
+# Panduan Instalasi (Localhost)
+Ikuti langkah ini untuk menjalankan aplikasi berbasis web di komputer Anda:
+
+Persiapan Database:
+
+Buat database baru di MySQL dengan nama nadimart.
+
+Impor file inc/nadimart.sql ke dalam database tersebut.
+
+Konfigurasi Sistem:
+
+Buka file inc/config.php.
+
+Sesuaikan DB_USER dan DB_PASS dengan kredensial database lokal Anda.
+
+Menjalankan Server:
+
+Buka terminal/CMD di dalam folder proyek ini.
+
+Jalankan perintah berikut:
+
+Bash
+
+php -S localhost:8000
+Akses aplikasi melalui browser di alamat: http://localhost:8000/
